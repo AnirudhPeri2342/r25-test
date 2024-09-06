@@ -49,15 +49,15 @@ Sabertooth Port:- Where we send commands to the robots controller
 Determining Movement:- If the pwm value crossed a certain level the robot was instructed to move forward and if it dropped below a certain level it would move back.
                        If it was maintained in between the forward and backward range, it would not move.
 ## Understanding
-What i understood from this test was how much more depth there is to coding than simply writing a code executing it and making changes. The setup for ming and git itself showed me a side of coding that i never realised was right there
+What i understood from this test was how much more depth there is to coding than simply writing a code executing it and making changes. The setup for ming and git itself showed me a side of coding that i never realised was right there. What i unerstood from the tasks was a slice of how coding would be different from the one we learn in class. Although this definitely had humbled me I peculiarly seem more interested than ever in the domain of coding and programming.
 
 ## Thought Process
-After understanding the problem, describe how you decided to proceed towards solving the question.
+Upon reading the tasks, I had to search a few things to better understand the given question and how to tackle it. On reading a little i realised the base idea of what was to be done and started figuring out how to set up ming and git. After some time when i finally got it setup I started working on thinking about the code and what I would have to change to achieve the required result. Since we needed to move the robot in 2 directions I comprehended that there was 3 main things I would have to clearly show in the code. The values of pwm for which the machine needs to move forward, back, and stop. After searching a little more and a conversation with chat gpt the code became a little more comprehensive to me which is when I started working on how to write the code. Another hour or so of researching the web and understanding more and more of the task and the given code I think I was finally able to come up with some code that althought doesnt give the correct end result, is something similar to what i should have done.
+
 
 ## Implementation
-How did you decide to implement your solution.
+Describes in 'Thought Process'
 
-Mention the details, such as the scaling used in the interpolation and how you tested it.
 
 # Google Form
 [Link to Repo Submission](https://docs.google.com/forms/d/e/1FAIpQLSeKVbm2dqWxwA5lbEkRfzY8KF619mI5ibGs0Cm2e5wrb0hoWQ/viewform)
