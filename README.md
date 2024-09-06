@@ -49,7 +49,7 @@ Sabertooth Port:- Where we send commands to the robots controller
 Determining Movement:- If the pwm value crossed a certain level the robot was instructed to move forward and if it dropped below a certain level it would move back.
                        If it was maintained in between the forward and backward range, it would not move.
 ## Understanding
-
+What i understood from this test was how much more depth there is to coding than simply writing a code executing it and making changes. The setup for ming and git itself showed me a side of coding that i never realised was right there
 
 ## Thought Process
 After understanding the problem, describe how you decided to proceed towards solving the question.
