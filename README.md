@@ -43,8 +43,13 @@ If you are able to compile your code successfully you should see something like 
 4. If your make check was unsuccesfull, you can clean your attempt by running `make clean`, review your implementation and repeat the previous steps.
 
 # Solution
+Basically what was needed to be done was a code needed to be written which was in the motor drivers range and moved the robot front or back or stop.
+SBUS Port:- Where we recieve signals from RC Transmitter
+Sabertooth Port:- Where we send commands to the robots controller
+Determining Movement:- If the pwm value crossed a certain level the robot was instructed to move forward and if it dropped below a certain level it would move back.
+                       If it was maintained in between the forward and backward range, it would not move.
 ## Understanding
-Describe what you understood about the problem.
+
 
 ## Thought Process
 After understanding the problem, describe how you decided to proceed towards solving the question.
